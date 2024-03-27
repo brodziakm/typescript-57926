@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@spectrum/spaces": ["../../dist/lib/spaces"],
+      "@spectrum/spectrum/*": ["../../dist/lib/spaces/*"],
+    }
+  }
+}
