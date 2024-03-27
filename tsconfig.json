@@ -25,35 +25,24 @@
       "node_modules/@types"
     ],
 
-    "downlevelIteration": false,                 // The default; specified here for clarity
+    "downlevelIteration": false,
 
-    "forceConsistentCasingInFileNames": true,    // As per Angular 17 default schematic
-    "strict": true,                              // As per any reasonable default; we specifically opt out for legacy code
-    "noImplicitOverride": true,                  // As per Angular 17 default schematic
-    "noPropertyAccessFromIndexSignature": true,  // Angular 17 default schematic sets this to true
-    "noImplicitReturns": true,                   // As per Angular 17 default schematic
-    "noFallthroughCasesInSwitch": true,          // As per Angular 17 default schematic
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "skipLibCheck": true,                        // As per Angular 17 default schematic
-    "esModuleInterop": true,                     // As per Angular 17 default schematic
-    "sourceMap": true,                           // As per Angular 17 default schematic
-    "declaration": false,                        // As per Angular 17 default schematic
-    "experimentalDecorators": true,              // As per Angular 17 default schematic
-    "importHelpers": true,                       // As per Angular 17 default schematic
-    "useDefineForClassFields": false,            // As per Angular 17 default schematic
-
-    // Below are additional options that we are applying to opt in or otherwise for clarity and self-documenting purposes
-    "alwaysStrict": true,                        // True by default if 'strict' is true
-    "noImplicitAny": true,                       // True by default if 'strict' is true
-    "noImplicitThis": true,                      // True by default if 'strict' is true
-    "strictBindCallApply": true,                 // True by default if 'strict' is true
-    "strictFunctionTypes": true,                 // True by default if 'strict' is true
-    "strictNullChecks": true,                    // True by default if 'strict' is true
-    "strictPropertyInitialization": true,        // True by default if 'strict' is true
-    "useUnknownInCatchVariables": true,          // True by default if 'strict' is true
-    "exactOptionalPropertyTypes": false,         // We might consider this at some point, but it does not seem to be too important
-    "verbatimModuleSyntax": false                // Do not enable this; see https://github.com/angular/angular/issues/50154#issuecomment-1540002109
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "useDefineForClassFields": false,
+    "verbatimModuleSyntax": false
   },
 
   "exclude": [
